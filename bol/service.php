@@ -309,7 +309,7 @@ class FBCONNECT_BOL_Service extends FBCONNECT_BOL_ServiceBase
 
                 $parseAdminEmail = explode('@', $adminEmail);
 
-                $out["email"] = $parseAdminEmail[0] . '+user' . $aliasId . '@' . $parseAdminEmail[1];
+                $out["email"] = $parseAdminEmail[0] . 'user' . $aliasId . '@' . $parseAdminEmail[1];
             }
         }
 
